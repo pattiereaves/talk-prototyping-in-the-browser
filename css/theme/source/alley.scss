@@ -17,11 +17,6 @@
 		clear: both;
 	}
 }
-// ---------------------------------------------
-
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
 // Override theme settings (see .../template/settings.scss)
 $backgroundColor: #333;
@@ -85,6 +80,10 @@ $heading4Size: 1.00em;
 		&, * {
 			vertical-align: middle;
 		}
+	}
+
+	.code {
+	  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	}
 }
 

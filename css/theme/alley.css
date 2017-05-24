@@ -1,8 +1,6 @@
 /**
  * Alley Interactive Theme for reveal.js.
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -315,6 +313,9 @@ body {
 
 .reveal .valign, .reveal .valign * {
   vertical-align: middle; }
+
+.reveal .code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
 
 .print-pdf .backgrounds {
   display: none; }

@@ -1,30 +1,49 @@
-# Prototyping in the Browser with WordPress
+What is prototyping in the browser?
+
+## HTML + CSS + JS <!-- .element: class="fragment code" data-fragment-index="1" -->
+## ⬇️ <!-- .element: class="fragment" data-fragment-index="2" -->
+## WP templates <!-- .element: class="fragment code" data-fragment-index="3" -->
+
+Note: Prototyping in the browser is a process of creating markup and styles independent from WordPress so you can preview what your final site will look like. At Alley Interactive, we’ve found this process holds a number of advantages over a more traditional design process in which you create or receive static, high-fidelity mockups in Photoshop, Sketch or a similar design tool and move directly into WordPress from there.
 
 ---
 
-## What is prototyping in the browser?
+## What is Huron?
 
-Prototyping in the browser is a process of creating markup and styles independent from WordPress so you can preview what your final site will look like. At Alley Interactive, we’ve found this process holds a number of advantages over a more traditional design process in which you create or receive static, high-fidelity mockups in Photoshop, Sketch or a similar design tool and move directly into WordPress from there.
+<img src="https://cl.ly/0l440j1I1W15/download/Image%202017-05-24%20at%2011.11.17%20AM.png" width=200 alt="Webpack"><!-- .element: class="fragment" data-fragment-index="1" -->
 
----
+![KSS](https://cl.ly/2V2O0d3V0Q0y/download/Image%202017-05-24%20at%2011.02.58%20AM.png)<!-- .element: class="fragment" data-fragment-index="1" -->
 
-### What’s Huron?
-
-At Alley Interactive, we built an open-source tool called Huron that uses node and the Knyle Style Sheets system to create component-based, in-browser style guides and prototypes. We’ll be showing you how you can use Huron in your own prototyping process.
+Note: At Alley Interactive, we built an open-source tool called Huron that uses node and the Knyle Style Sheets system to create component-based, in-browser style guides and prototypes. We’ll be showing you how you can use Huron in your own prototyping process.
 
 ---
 
-### First, it creates a style guide of all your components
+# 1️⃣
 
-[ Show gif of styleguide ]
-
-So you can see in an ordered way what each components looks like separate from the rest of your site.
+Note: There are two sides to how this prototyping system works. First!
 
 ---
 
-### Second, it allows you to arrange those same components together in a prototype.
 
-With just HTML and an optional templating language, you can make a version of your theme that looks just like what your final site will look like.
+## [Gif of styleguide goes here]
+
+It creates a style guide of all your components
+
+Note: So you can see in an ordered way what each components looks like separate from the rest of your site.
+
+---
+
+# 2️⃣
+
+Note: And second!
+
+---
+
+## [Gif of prototype html updating]
+
+It allows you to arrange those same components together in a prototype.
+
+Note: With just HTML and an optional templating language, you can make a version of your theme that looks just like what your final site will look like.
 
 ---
 
