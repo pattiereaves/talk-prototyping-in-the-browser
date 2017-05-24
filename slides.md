@@ -48,7 +48,7 @@ Note: With just HTML and an optional templating language, you can make a version
 ---
 
 ## 🤔
-## What kind of projects should you prototype?
+## How do you decide to prototype a project?
 
 Note: Any new redesign of a WordPress theme where you need to architect a new design from scratch.
 
