@@ -47,9 +47,10 @@ Note: With just HTML and an optional templating language, you can make a version
 
 ---
 
-## What kind of projects would you do this on?
+## 🤔
+## What kind of projects should you prototype?
 
-Any new redesign of a WordPress theme where you need to architect a new design from scratch.
+Note: Any new redesign of a WordPress theme where you need to architect a new design from scratch.
 
 It could also work on themes where you are building the design of a new component or area. You can commit to prototyping as much or as little of the theme as you like, depending on your project’s needs.
 
@@ -57,32 +58,38 @@ This process is best suited to building a specific website. If you are building 
 
 ---
 
-## Why prototype in the browser?
+## < 🎨 > <!-- .element: class="code" -->
+## Why choose to prototype in the browser?
+
+Note: Lets go over some reasons.
 
 ---
 
-### It’s more maintainable.
+# 🔨
+## It’s more maintainable.
 
-Because atomic design forces you to keep your components small and modular, you can make changes to one component without being afraid the change will cascading unintentionally to other parts of your site.
-
----
-
-### Design discrepancies become obvious
-
-Using a prototype and a style guide will encourage component reuse. So it is easier to catch the small things that are different in static design comps and then ask the question — _should_ this be different?
-
+Note: *Maintainable*: Because atomic design forces you to keep your components small and modular, you can make changes to one component without being afraid the change will cascading unintentionally to other parts of your site.
 
 ---
 
-### Design implementation issues can be addressed earlier
+# 👯
+## Design discrepancies become obvious.
 
-The design will be vetted much earlier in the process for in-browser feasibility. No more discovering you need to show and hide markup based on screen size and not being able to go back to design and fix it.
+Note: Obvious discrepancies: Using a prototype and a style guide will encourage component reuse. So it is easier to catch the small things that are different in static design comps and then ask the question — _should_ this be different?
 
 ---
 
-### Clients “experience” their website sooner.
+# 🙋
+## Design implementation issues can be addressed earlier.
 
-You don’t have to wait for the back-end or data migration to be complete before you start building and delivering your front-end code.
+Note: The design will be vetted much earlier in the process for in-browser feasibility. No more discovering you need to show and hide markup based on screen size and not being able to go back to design and fix it.
+
+---
+
+# 👩‍💻💯
+## Clients “experience” their website sooner.
+
+Note: You don’t have to wait for the back-end or data migration to be complete before you start building and delivering your front-end code.
 
 Even if waiting for a data migration isn’t not a factor, you can use hot module reloading to edit and refine your markup faster than a livereload-type setup.
 
@@ -90,31 +97,35 @@ This means that you can get a working website in your clients’ hands sooner
 
 ---
 
-### Front-end and back-end can progress independently and simultaneously.
+# 👩‍💻👨‍💻
+### Front-end and back-end can progress _independently_ and _simultaneously_.
 
-If you’re on a team, front- and back-end work can happen independently and in a rolling, modular fashion. All your work on dynamic interactions with javascript, css styles, and markup structures can proceed without related back-end work blocking it. You won’t have to wait for a template part to be finished before working on styles for it.
+Note: If you’re on a team, front- and back-end work can happen independently and in a rolling, modular fashion. All your work on dynamic interactions with javascript, css styles, and markup structures can proceed without related back-end work blocking it. You won’t have to wait for a template part to be finished before working on styles for it.
 
 ---
 
+# 🔨 ✖️ 1️⃣
 ### When you’re done, you have a production front-end!
 
-All the front-end work you put into building in-browser prototypes will work seamlessly (or near seamlessly) with your PHP markup in the WordPress theme.
+Note: All the front-end work you put into building in-browser prototypes will work seamlessly (or near seamlessly) with your PHP markup in the WordPress theme.
 
 ---
 
+# 🤔
 ## When do you start prototyping?
 
-You can start prototyping in the browser after you’ve established the components that are going to be on a page.
+Note: You can start prototyping in the browser after you’ve established the components that are going to be on a page.
 
 Low-fidelity wireframes usually come first — wireframes that show the placement and location of modules on a page, but don’t get into “pixel perfection.”
 
 ---
 
-## How to do it
+# ⚙️
+## How it works
 
-[ Go into live demo 🤞 at this point — these steps should not be part of slides ]
+Demo time 
 
-### Go over requirements
+Note: ### Go over requirements
 
 Quick overview of npm
 Quick overview of webpack (and build config)
