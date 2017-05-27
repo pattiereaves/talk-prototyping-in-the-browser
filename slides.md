@@ -1,47 +1,38 @@
 What is prototyping in the browser?
 
-## HTML + CSS + JS <!-- .element: class="fragment code" data-fragment-index="1" -->
-## ⬇️ <!-- .element: class="fragment" data-fragment-index="2" -->
-## WP templates <!-- .element: class="fragment code" data-fragment-index="3" -->
+## HTML + CSS + JS <!-- .element: class="fragment" data-fragment-index="1" -->
+## ⬇️ <!-- .element: class="fragment" data-fragment-index="1" -->
+## WP templates <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Note: Prototyping in the browser is a process of creating markup and styles independent from WordPress so you can preview what your final site will look like. At Alley Interactive, we’ve found this process holds a number of advantages over a more traditional design process in which you create or receive static, high-fidelity mockups in Photoshop, Sketch or a similar design tool and move directly into WordPress from there.
+Note: Prototyping in the browser is a process of creating markup and styles independent from WordPress so you can preview what your final site will look like. At Alley Interactive, we’ve found this process holds a number of advantages over a more traditional design process in which you create or receive static, high-fidelity mock-ups in Photoshop, Sketch or a similar design tool and move directly into WordPress from there.
 
 ---
 
 ## What is Huron?
 
-<img src="https://cl.ly/0l440j1I1W15/download/Image%202017-05-24%20at%2011.11.17%20AM.png" width=200 alt="Webpack"><!-- .element: class="fragment" data-fragment-index="1" -->
-
-![KSS](https://cl.ly/2V2O0d3V0Q0y/download/Image%202017-05-24%20at%2011.02.58%20AM.png)<!-- .element: class="fragment" data-fragment-index="1" -->
+![Huron](https://cl.ly/3L1V1g3M3a3c/download/www.npmjs.com-package-huron.png)
 
 Note: At Alley Interactive, we built an open-source tool called Huron that uses node and the Knyle Style Sheets system to create component-based, in-browser style guides and prototypes. We’ll be showing you how you can use Huron in your own prototyping process.
 
 ---
 
-# 1️⃣
+# Why do prototyping in the browser?
 
 Note: There are two sides to how this prototyping system works. First!
 
 ---
 
+![Gif of styleguide](https://cl.ly/2s292S0z3J2q/download/Screen%20Recording%202017-05-27%20at%2011.51%20AM.gif)
 
-## [Gif of styleguide goes here]
-
-It creates a style guide of all your components
+1️⃣  It creates a style guide of all your components
 
 Note: So you can see in an ordered way what each components looks like separate from the rest of your site.
 
 ---
 
-# 2️⃣
+![Gif of prototype html updating](https://cl.ly/0z2A0v1v3v3z/download/Screen%20Recording%202017-05-27%20at%2012.03%20PM.gif)
 
-Note: And second!
-
----
-
-## [Gif of prototype html updating]
-
-It allows you to arrange those same components together in a prototype.
+2️⃣ It allows you to arrange those same components together in a prototype.
 
 Note: With just HTML and an optional templating language, you can make a version of your theme that looks just like what your final site will look like.
 
@@ -123,13 +114,12 @@ Low-fidelity wireframes usually come first — wireframes that show the placemen
 # ⚙️
 ## How it works
 
-Demo time 
-
 Note: ### Go over requirements
 
 Quick overview of npm
 Quick overview of webpack (and build config)
 Create Huron-specific configuration file
+Create entry point
 Create prototype html file
 Create scss file
 Create JSON file with data
@@ -137,3 +127,7 @@ Create HBS file
 Show ✨ magic - it all coming together when you run the server
 Show how to build to get a link to share.
 Show how the css files are enqueued in assets.php for the WordPress theme
+
+---
+
+[http://bit.ly/wcpwm17-huron](http://bit.ly/wcpwm17-huron)
