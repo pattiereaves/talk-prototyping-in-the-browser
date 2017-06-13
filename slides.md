@@ -1,10 +1,12 @@
-What is prototyping in the browser?
+What does prototyping in the browser mean for Alley?
 
 ## HTML + CSS + JS <!-- .element: class="fragment" data-fragment-index="1" -->
 ## ⬇️ <!-- .element: class="fragment" data-fragment-index="1" -->
 ## WP templates <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note: Prototyping in the browser is a process of creating markup and styles independent from WordPress so you can preview what your final site will look like. At Alley Interactive, we’ve found this process holds a number of advantages over a more traditional design process in which you create or receive static, high-fidelity mock-ups in Photoshop, Sketch or a similar design tool and move directly into WordPress from there.
+
+As it stands now Huron doesn't fit into our javascript practice. It doesn't mean that we won't do in-browser prototyping for javascript projects, it just means that when we do, it won't be using Huron.
 
 ---
 
@@ -13,6 +15,8 @@ Note: Prototyping in the browser is a process of creating markup and styles inde
 ![Huron](https://cl.ly/3L1V1g3M3a3c/download/www.npmjs.com-package-huron.png)
 
 Note: At Alley Interactive, we built an open-source tool called Huron that uses node and the Knyle Style Sheets system to create component-based, in-browser style guides and prototypes. We’ll be showing you how you can use Huron in your own prototyping process.
+
+Owen - Add origin story 🕷
 
 ---
 
@@ -46,6 +50,29 @@ Note: Any new redesign of a WordPress theme where you need to architect a new de
 It could also work on themes where you are building the design of a new component or area. You can commit to prototyping as much or as little of the theme as you like, depending on your project’s needs.
 
 This process is best suited to building a specific website. If you are building a general theme for sale, this probably isn’t worth it.
+
+---
+
+## Projects we've used Huron
+
+- Digital First Media _(internal design)_
+- Brookings _(internal)_
+- Cooks Science
+- Women's Wear Daily
+- The Points Guy
+- Tech of News _(internal)_
+- Hachette
+- Hollywood Life
+
+---
+
+## But what about the designers?
+
+Note: Our thoughts were that designers would work with Huron initially.
+
+The real benefit of working in browser is when you get to work with a design team that understands you don't need a full suite of high-fidelity mock-ups to move directly into the browser.
+
+You still get the benefit of working on the front and back end independently but you don't as much of the efficient of it with an external design team.
 
 ---
 
@@ -84,7 +111,9 @@ Note: You don’t have to wait for the back-end or data migration to be complete
 
 Even if waiting for a data migration isn’t not a factor, you can use hot module reloading to edit and refine your markup faster than a livereload-type setup.
 
-This means that you can get a working website in your clients’ hands sooner
+This means that you can get a working website in your clients’ hands sooner.
+
+It fits in the agile process better.
 
 ---
 
@@ -111,23 +140,5 @@ Low-fidelity wireframes usually come first — wireframes that show the placemen
 
 ---
 
-# ⚙️
-## How it works
-
-Note: ### Go over requirements
-
-Quick overview of npm
-Quick overview of webpack (and build config)
-Create Huron-specific configuration file
-Create entry point
-Create prototype html file
-Create scss file
-Create JSON file with data
-Create HBS file
-Show ✨ magic - it all coming together when you run the server
-Show how to build to get a link to share.
-Show how the css files are enqueued in assets.php for the WordPress theme
-
----
-
-[http://bit.ly/wcpwm17-huron](http://bit.ly/wcpwm17-huron)
+# 🎤
+## Discussion time
