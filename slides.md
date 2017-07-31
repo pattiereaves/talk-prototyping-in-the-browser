@@ -109,10 +109,12 @@ Note: You can start prototyping in the browser after you’ve established the co
 
 Low-fidelity wireframes usually come first — wireframes that show the placement and location of modules on a page, but don’t get into “pixel perfection.”
 
+@todo this slide can be expanded to talk more about modular workflow.
+
 ---
 
 # ⚙️
-## How it works
+## Workshop time
 
 Note: ### Go over requirements
 
@@ -127,6 +129,11 @@ Create HBS file
 Show ✨ magic - it all coming together when you run the server
 Show how to build to get a link to share.
 Show how the css files are enqueued in assets.php for the WordPress theme
+
+@todos
+Make slide for people to fork https://github.com/pattiereaves/huronforwp/tree/demo
+Ask in slack channel if most people attending the workshop have a local dev environment for WP.
+
 
 ---
 
